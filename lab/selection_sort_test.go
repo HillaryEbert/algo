@@ -1,6 +1,6 @@
 /*
 Problem:
-- Implement selection sort.
+-*Implement selection sort.
 
 Approach:
 - Repeatedly select the next smallest element from the unsorted array and
@@ -56,3 +56,4 @@ func selectionSort(in []int) {
 		common.Swap(in, i, minIndex)
 	}
 }
+ 
